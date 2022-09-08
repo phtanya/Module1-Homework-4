@@ -64,7 +64,7 @@ namespace Homework4
             string[] abc = { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" };
 
             string[] evenABC = new string[evenNumbers.Length];
-            for (int i = 1; i < evenNumbers.Length; i++)
+            for (int i = 0; i < evenNumbers.Length; i++)
             {
                 evenABC[i] = abc[evenNumbers[i] - 1];
                 Console.Write(evenABC[i] + " ");
