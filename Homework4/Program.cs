@@ -116,8 +116,6 @@ namespace Homework4
                 // Console.Write(oddABC[i] + " ");
             }
 
-            // Console.WriteLine($"Upper Odd {countOdd}");
-
             // Выводим массив, в котором больше букв в верхнем регистре
             if (countOdd > countEven)
             {
